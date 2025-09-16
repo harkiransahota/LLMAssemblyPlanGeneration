@@ -38,18 +38,18 @@ Getting Started
 Follow these steps to run the code locally:
 
 ### 1. Clone the repository
-git clone https://github.com/your-username/your-repo.git
-cd your-repo
+git clone https://github.com/harkiransahota/LLMAssemblyPlanGeneration.git
+cd LLMAssemblyPlanGeneration
 
 ### 2. Create and activate a virtual environment
 
-macOS/Linux:
+  #### macOS/Linux:
 
 python3 -m venv venv
 source venv/bin/activate
 
 
-Windows:
+  #### Windows:
 
 python -m venv venv
 .\venv\Scripts\activate
