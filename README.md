@@ -39,6 +39,7 @@ Follow these steps to run the code locally:
 
 ### 1. Clone the repository
 git clone https://github.com/harkiransahota/LLMAssemblyPlanGeneration.git
+
 cd LLMAssemblyPlanGeneration
 
 ### 2. Create and activate a virtual environment
