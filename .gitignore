@@ -1,0 +1,19 @@
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore environment config
+.env
+
+# Ignore Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Ignore VSCode settings
+.vscode/
+
+# Ignore output files
+*.txt
+*.log
+
+# Virtual environment
+venv/
