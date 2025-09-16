@@ -1,6 +1,5 @@
 # LLMAssemblyPlanGeneration
 CODE REPOSITORY
-Out-of-the-Box Assembly Plan Generation: A Peer Evaluation of Open-Source LLMs - Accompaning Code to Paper
 
 This repository contains the code accompanying the paper:
 "Out-of-the-box Assembly Plan Generation: A Peer Evaluation of Open-Source LLMs"
@@ -13,7 +12,7 @@ This Jupyter Notebook contains the tests and evaluations used in the study, incl
 
 Domain relevance tests by asking 10 general manufacturing questions and scoring responses.
 
-Quality evaluation of assembly instruction generation from top-performing LLMs using different prompting strategies.
+Quality evaluation of assembly instruction generation from top-performing LLMs using different assembly tasks and prompting strategies.
 
 Repository Contents
 
