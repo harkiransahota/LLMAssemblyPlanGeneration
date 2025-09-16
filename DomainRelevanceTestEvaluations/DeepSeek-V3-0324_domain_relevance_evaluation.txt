@@ -1,0 +1,102 @@
+Q: What are the key steps in a standard manufacturing process flow?
+
+A: A: [4] [The answer is correct and highly detailed, covering all key steps with additional sub-steps and optional considerations. However, it includes some extra details that slightly deviate from the simplicity of the reference answer.]  
+B: [5] [The answer is comprehensive, accurate, and well-structured, with clear phases and considerations for modern manufacturing practices. It matches the reference answer closely while adding valuable context and depth.]  
+C: [4] [The answer is correct and complete, covering all essential steps with good detail. It slightly expands on the reference answer but remains concise and relevant.]  
+D: [5] [The answer is thorough, accurate, and well-organized, aligning closely with the reference answer while providing additional insights into modern manufacturing practices and continuous improvement. It is both complete and highly relevant.]
+
+M: ['Llama', 'Gemma', 'DeepSeek', 'Qwen']
+------------------------------------------------------------
+
+Q: What is the purpose of a Bill of Materials (BOM) in production?
+
+A: A: [5] [This answer is highly correct, complete, and relevant. It covers all key purposes of a BOM, including product structure, planning, quality control, cost estimation, efficiency, documentation, collaboration, and lifecycle management. It even includes types of BOMs, making it comprehensive and very useful.]  
+B: [4] [This answer is correct and relevant, listing key purposes like material planning, production scheduling, cost estimation, inventory management, and quality control. It is well-structured but slightly less detailed than A, missing some aspects like integration with systems and version control.]  
+C: [5] [This answer is excellent, covering correctness, completeness, and relevance. It details material management, production planning, cost control, consistency, collaboration, system integration, and version control. It matches the depth and breadth of A, making it very thorough.]  
+D: [4] [This answer is correct and highly detailed, breaking down purposes into production planning, costing, engineering, procurement, and manufacturing. It includes types of BOMs and offers to dive deeper. However, its conversational tone and lengthy format might make it slightly less concise for quick reference compared to A and C.]
+
+M: ['DeepSeek', 'Llama', 'Qwen', 'Gemma']
+------------------------------------------------------------
+
+Q: Explain the difference between subtractive and additive manufacturing.
+
+A: A: 5 [This answer is comprehensive, covering both subtractive and additive manufacturing in great detail. It includes definitions, processes, materials, strengths, weaknesses, and a comparison table, making it very complete and accurate.]  
+B: 4 [This answer is well-structured and covers the key differences clearly. It includes a good comparison table and summary, but lacks some depth in explaining the processes and materials compared to answer A.]  
+C: 5 [This answer is highly detailed and thorough, addressing all aspects of both manufacturing methods, including material usage, complexity, applications, cost, and environmental impact. The summary table is excellent.]  
+D: 3 [This answer provides a clear and concise explanation of both methods but lacks the depth and detail found in the other answers. The comparison table is basic and could be more informative.]
+
+M: ['Gemma', 'DeepSeek', 'Qwen', 'Llama']
+------------------------------------------------------------
+
+Q: What is lean manufacturing and its core principles?
+
+A: Here are the evaluations for each candidate answer based on correctness, completeness, and domain relevance:
+
+A: [5] [This answer is comprehensive, accurate, and closely aligns with the reference. It covers all core principles of lean manufacturing in detail, including additional key concepts and tools, making it highly relevant and useful.]  
+B: [5] [This answer is excellent, providing a thorough and well-structured explanation of lean manufacturing and its core principles. It includes practical examples, tools, and types of waste, enhancing its completeness and relevance.]  
+C: [4] [This answer is correct and relevant but slightly less detailed compared to A and B. It covers the core principles well but lacks some of the deeper explanations and examples provided in the top-tier answers.]  
+D: [5] [This answer is outstanding, offering an in-depth exploration of lean manufacturing. It not only covers the core principles comprehensively but also provides detailed explanations, examples, and additional context, making it highly informative and relevant.]
+
+M: ['Llama', 'Qwen', 'DeepSeek', 'Gemma']
+------------------------------------------------------------
+
+Q: What is production planning in manufacturing, and why is it important?
+
+A: A: [5] [This answer is highly detailed and covers all aspects of production planning, including key components and importance. It is factually accurate, comprehensive, and very relevant to the manufacturing domain.]  
+B: [4] [The answer is correct and covers the main points, but lacks some of the depth and detail found in the reference and other high-scoring answers. It is still relevant and useful.]  
+C: [5] [This answer is excellent, providing a thorough explanation of production planning and its importance. It includes all key components, real-world implications, and modern tools, making it very relevant and complete.]  
+D: [5] [This answer is extremely comprehensive, covering all aspects of production planning in great detail, including different levels of planning and modern trends. It is factually accurate, complete, and highly relevant to the manufacturing context.]
+
+M: ['DeepSeek', 'Llama', 'Qwen', 'Gemma']
+------------------------------------------------------------
+
+Q: What does an efficient production plan in manufacturing look like?
+
+A: A: [4] [Correct and detailed, covering all key aspects of an efficient production plan, but slightly verbose and less focused on adaptability compared to the reference.]  
+B: [5] [Highly accurate and comprehensive, closely matching the reference in balance and detail, with a strong emphasis on adaptability and lean principles.]  
+C: [4] [Clear and concise, effectively outlining key elements of an efficient plan, but lacks some depth in risk management and sustainability compared to the reference.]  
+D: [5] [Exceptional depth and breadth, aligning perfectly with the reference while adding valuable insights into technologies and common pitfalls, making it highly relevant and complete.]
+
+M: ['Llama', 'Qwen', 'DeepSeek', 'Gemma']
+------------------------------------------------------------
+
+Q: What are common assembly actions used to assemble products?
+
+A: A: [5] [This answer is highly detailed and comprehensive, covering a wide range of assembly actions with clear examples. It matches the reference answer perfectly in terms of correctness and completeness, and it is highly relevant to the domain.]  
+B: [4] [This answer is also comprehensive and well-structured, but it includes some additional details like automation vs. manual assembly, which, while useful, are not explicitly requested in the reference. It is correct, complete, and relevant.]  
+C: [4] [This answer is extremely detailed and includes automation levels, which adds value but goes beyond the reference. It is correct and relevant but slightly verbose and less focused on the core question.]  
+D: [4] [This answer covers all the key points of the reference and adds some specialized techniques, making it complete and correct. It is relevant but includes a few extra details not strictly necessary for the reference.]
+
+M: ['Llama', 'DeepSeek', 'Gemma', 'Qwen']
+------------------------------------------------------------
+
+Q: How would you describe to a layman the steps to assemble two parts with a special screw using a specific tool?
+
+A: A: [5] [This answer is comprehensive, detailed, and highly relevant. It includes all steps from the reference answer and adds valuable context, analogies, and warnings about over-tightening. It’s very clear and suitable for a layman.]  
+B: [4] [This answer is clear and well-structured, with good layman-friendly language and analogies. It covers all the reference steps but lacks some of the additional context and warnings provided in answer A.]  
+C: [3] [This answer is thorough and organized but feels overly formal and less engaging for a layman. It includes all necessary steps but misses the conversational tone and practical tips found in A and B.]  
+D: [4] [This answer is concise and effective, with simple language and good analogies. It covers the reference steps well but is slightly less detailed than A and B, though still very clear and relevant.]
+
+M: ['Qwen', 'Gemma', 'Llama', 'DeepSeek']
+------------------------------------------------------------
+
+Q: What does "takt time" mean, and how is it calculated?
+
+A: A: 5 [This answer is thorough and detailed, providing a clear definition of takt time, its calculation, and practical applications. It includes an example and discusses how to use takt time effectively, aligning well with the reference answer.]  
+B: 4 [The answer is accurate and concise, covering the definition and calculation of takt time with a clear example. It lacks some of the depth in application and context provided in answer A, but it is still very informative.]  
+C: 4 [This answer is comprehensive and well-structured, offering a detailed explanation of takt time, its importance, and calculation. It includes useful considerations and resources, though it slightly overlaps with the reference answer's brevity in some parts.]  
+D: 5 [The answer is highly accurate and complete, detailing the definition, calculation, and key points of takt time. It provides a clear example and discusses synchronization and industry applications, closely matching the reference answer's depth and relevance.]
+
+M: ['Llama', 'DeepSeek', 'Gemma', 'Qwen']
+------------------------------------------------------------
+
+Q: What are common causes of bottlenecks in a manufacturing system?
+
+A: A: [5] [Excellent correctness with detailed explanations, highly comprehensive, and very relevant to manufacturing systems. Categorizes and breaks down causes systematically, including identification strategies.]  
+B: [4] [Very accurate and complete, with clear categorization and practical solutions. Slightly less exhaustive than A but maintains strong domain relevance and structure.]  
+C: [4] [Comprehensive and logically structured, covering all key areas with good accuracy. Some redundancy in categories (e.g., labor-related points), but very relevant.]  
+D: [5] [Exceptional organization and depth, integrating examples and mitigation strategies. Covers nuanced factors (e.g., external disruptions) and maintains high correctness and relevance.]
+
+M: ['Gemma', 'DeepSeek', 'Llama', 'Qwen']
+------------------------------------------------------------
+

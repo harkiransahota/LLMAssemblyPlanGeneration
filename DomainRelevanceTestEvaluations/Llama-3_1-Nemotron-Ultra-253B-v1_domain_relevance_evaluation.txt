@@ -1,0 +1,118 @@
+Q: What are the key steps in a standard manufacturing process flow?
+
+A: 
+A: 5  Correct, comprehensive, and detailed, including all reference steps plus relevant optional industry-specific phases without inaccuracies.  
+B: 5  Accurate, complete, and well-structured, expanding on the reference with additional phases like continuous improvement and modern trends.  
+C: 4  Majority of core steps are covered with correct terminology, but lacks depth in areas like warehousing and omits explicit distribution steps.  
+D: 5  Exceptionally thorough, technically precise, and includes modern methodologies (e.g., Lean, Industry 4.0), aligning perfectly with the reference while enhancing relevance.
+
+M: ['Llama', 'Qwen', 'DeepSeek', 'Gemma']
+------------------------------------------------------------
+
+Q: What is the purpose of a Bill of Materials (BOM) in production?
+
+A: 
+
+A: 5  The answer is factually accurate, comprehensively covers all aspects of the BOM's purpose, and provides detailed technical context (e.g., MRP, types of BOMs). It exceeds the reference by elaborating on applications and best practices while maintaining relevance.  
+B: 5  Correctly identifies key purposes aligned with the reference (planning, procurement, inventory) and expands into related areas like quality control and compliance. Structured and complete, with strong domain alignment.  
+C: 5  Accurately defines the BOM's role, organized into clear sections that mirror and expand on the reference. Includes relevant details like collaboration and lifecycle management, enhancing completeness without introducing errors.  
+D: 5  Succinct yet thorough, covering core functions (material management, production planning) and integrating system-level considerations (ERP/MES). Terminology and focus align precisely with production contexts.
+
+M: ['Gemma', 'Llama', 'DeepSeek', 'Qwen']
+------------------------------------------------------------
+
+Q: Explain the difference between subtractive and additive manufacturing.
+
+A: 
+
+A: **5** [Accurate, thorough explanation with examples, processes, and a summary table. Fully addresses the question with domain-specific details.]  
+B: **5** [Complete and precise, covering definitions, material usage, design implications, and applications. Uses a comparative table for clarity.]  
+C: **5** [Correctly defines both processes and contrasts key aspects like material waste and design flexibility. Includes a comparison table for quick reference.]  
+D: **5** [Concise yet comprehensive breakdown of differences, addressing process, waste, design, and applications. Summary table enhances domain relevance.]
+
+M: ['Gemma', 'Qwen', 'Llama', 'DeepSeek']
+------------------------------------------------------------
+
+Q: What is lean manufacturing and its core principles?
+
+A: 
+
+A: 5  **Correct, comprehensive, and domain-relevant.** Accurately details the Toyota Production System origins, the five principles with examples, tools, and waste types. Complete and aligned with lean manufacturing context.  
+B: 5  **Accurate and thorough.** Lists the five principles clearly, explains tools (e.g., 5S, Kanban), and covers waste types. Matches reference structure while adding practical techniques.  
+C: 5  **Exceptionally detailed.** Uses the "house" metaphor to explain principles, includes DOWNTIME wastes, and emphasizes Kaizen. Fully addresses the question with strong domain relevance.  
+D: 5  **Precise and complete.** Aligns with the reference, incorporates additional concepts (Heijunka, Andon), and maintains focus on core principles. Enhances understanding without deviating from context.
+
+M: ['Qwen', 'DeepSeek', 'Gemma', 'Llama']
+------------------------------------------------------------
+
+Q: What is production planning in manufacturing, and why is it important?
+
+A:
+A: 5  Fully accurate, comprehensive coverage of components, importance, and modern trends. Exceeds reference in depth without errors.  
+B: 4  Correct and relevant, with clear structure and examples like JIT. Slightly less detailed than the reference but sufficiently complete.  
+C: 4  Accurate and relevant, with useful additions like quality control. A bit less structured than the reference but addresses all key points.  
+D: 5  Thoroughly correct, structured, and complete. Aligns closely with the reference, covering technical aspects and strategic importance effectively.
+
+M: ['Gemma', 'Qwen', 'DeepSeek', 'Llama']
+------------------------------------------------------------
+
+Q: What does an efficient production plan in manufacturing look like?
+
+A: 
+
+A: 5  The answer is factually accurate, comprehensive, and directly addresses all components of the reference (demand balancing, resource optimization, buffers for uncertainty). It enhances the reference with detailed strategies (JIT, lean manufacturing) and a practical example, ensuring high domain relevance.  
+B: 5  Expands on the reference by integrating advanced principles (e.g., TQM, digital twins) and technologies (IoT, ERP), while maintaining alignment with core concepts like flexibility and waste reduction. Accurate, replete with examples (Toyota TPS), and highly relevant to modern manufacturing.  
+C: 5  Correctly condenses key elements (demand-driven planning, lean workflows, contingency strategies) into a concise yet complete framework. Though less verbose than A/B/D, it covers all reference points and adds practical tools (APS, Kanban), ensuring domain relevance.  
+D: 5  Provides exceptional depth, covering technical aspects (MPS, MRP, CRP) and technologies (MES, AI) while meticulously addressing the reference’s core principles. Highly accurate, thorough, and relevant, with discussion of pitfalls and real-world application.
+
+M: ['Llama', 'Qwen', 'DeepSeek', 'Gemma']
+------------------------------------------------------------
+
+Q: What are common assembly actions used to assemble products?
+
+A: 
+
+A: 5  **Correct, comprehensive, and highly relevant with detailed examples and automation context.**  
+B: 5  **Accurate and thorough, covering advanced actions, automation levels, and industry examples.**  
+C: 4  **Mostly correct and complete but lacks depth in specialized techniques and automation.**  
+D: 4  **Factually sound and relevant but less exhaustive, with some minor omissions in joining methods.**
+
+M: ['Qwen', 'Gemma', 'Llama', 'DeepSeek']
+------------------------------------------------------------
+
+Q: How would you describe to a layman the steps to assemble two parts with a special screw using a specific tool?
+
+A: 
+
+A: 5  **Correct, thorough, and relevant.** Covers all steps with clear explanations, examples, and emphasis on avoiding over-tightening. Includes rationale for special tools, enhancing domain relevance.  
+B: 5  **Accurate and approachable.** Uses conversational language, analogies, and tactile feedback (e.g., "feels snug"). Simplifies technical terms without sacrificing correctness or completeness.  
+C: 5  **Succinct yet complete.** Hits all key steps with relatable examples (e.g., Lego, jar lid). Correctly emphasizes alignment, hand-starting screws, and avoiding over-tightening.  
+D: 5  **Structured and precise.** Detailed steps mirror the reference, with explicit instructions for tool usage and verification. Formal tone maintains clarity and domain relevance.
+
+M: ['Qwen', 'Gemma', 'DeepSeek', 'Llama']
+------------------------------------------------------------
+
+Q: What does "takt time" mean, and how is it calculated?
+
+A: 
+
+A: 5  The answer is accurate, comprehensive, and deeply relevant, covering the concept, formula, example, and application within lean manufacturing.  
+B: 5  Correct, complete, and highly relevant, with detailed explanations, practical examples, and considerations for real-world scenarios.  
+C: 4  Mostly correct but slightly misleading in defining takt time as "average time between starts," which conflates it with cycle time. Still relevant and largely complete.  
+D: 5  Fully accurate, thorough, and domain-appropriate, addressing nuances like cycle time vs. takt time and industry applications.
+
+M: ['Llama', 'Gemma', 'DeepSeek', 'Qwen']
+------------------------------------------------------------
+
+Q: What are common causes of bottlenecks in a manufacturing system?
+
+A: 
+
+A: 5  Correctly identifies all reference causes with extensive elaboration, organized comprehensively, and provides actionable solutions, ensuring high domain relevance.  
+B: 5  Accurately covers key causes, aligns with reference points, and enhances with strategies like lean methods, demonstrating strong completeness and relevance.  
+C: 5  Exceptionally detailed, categorizes causes meticulously, incorporates advanced concepts (e.g., Theory of Constraints), and maintains technical accuracy throughout.  
+D: 5  Structured clearly, addresses all reference issues, includes real-world examples and mitigation tactics, ensuring practicality and thoroughness for manufacturing contexts.
+
+M: ['Llama', 'DeepSeek', 'Gemma', 'Qwen']
+------------------------------------------------------------
+

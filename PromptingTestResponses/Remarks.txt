@@ -1,0 +1,101 @@
+Gemma:
+Task 1:
+preparation step added -Clearing Workspace protecting parts, Checking inventory
+inserting the screw from the table top, even though it is explicitly described that the hole is 'on the bottom face only, not going all the way through' or through the whole leg into the table - did not understand the concept of a double ended screw
+Task 2:
+adds correct part orientation to the instructons - turning seat mechanism such that the lever is in the front of the seat or checking orientation of arm rest
+in prompt 1, promt 3 and prompt 4 using force for caster wheel even though the part list describes 'caster wheels, each with a pre-attached screw for mounting'
+in promt 3 Labeling the parts with A-J for better part referencing in the instructions
+Task 3:
+understands self adhisive part - peel off cover before sticking
+prompt 1 asking to reclip the base and midle panel (if not preclipped) before inserting the Raspberry pi
+prompt 2 also expecting to slide in the Pi between base and middle panel instead of opening it first
+prompt 3 instructing to only seperate the lid from the connected base and midel panel and insert the Pi 
+Does not understand 'should be positioned between base and middle panel' as disassebling the preclipped base and middle panel to plase the PI inbetween, instead it tires to slide it into place
+Task 4:
+prompt 1 inserting 4 wodden dowels into each end of three shelves and skirting board which makes a total of 32 dowels - the part list only states 16 dowels and only two dowel holes on each side for the shelves and skriting board
+prompt 1 and prompt 2 confusing the cam screw - should be screwed in side board threaded holes not shleves, shelv holes are just for inserting the cam screw heads and locking in the cam lock
+prompt 2 enven though strict format of response - step 1, step 2, .. is given by an example it ads a 'Before you begin' part with tools and workspace
+prompt 2 and prompt 3 and prompt 4 positioning each shelf and the skriting boart directly inbetween both side panels which is more difficult, as inserting after the skriting board is already holding the side panels in place will require to pull the side panals apart which might damage the parts or dowels or holes
+prompt 3 cofusing the cam screw holes and cam screw lock holes, inserting both through the bottom cam screw lock holes on the shelves after already placing the shelves inbetween the side panals
+in promt 4 Labeling the parts with A-J for better part referencing in the instructions
+prompt 4 wants to install four wodden dowels on side of the skriting board and cam screws in the cam screw holes of the skriting board even though the part list explicitly describes that the skirting board only has two wooden plug holes on each side 
+Task 5:
+recognises the order of front fender before tyre
+Despite instruction 'reattach the rear fender above the training wheel using the provided fender strut' there is not previous instruction of removing the rear fender before
+
+Given example in prompt 2 makes the response shorter and concise, follwing the example given (however sometimes omitting smaller instructions as loosening preinstalled bolts or clamps), otherwise a lot of 'friendly talking' is added as congratulations for buying or building the product 
+
+for prompt 3 creating a user friendly manual it takes the freedom to add placeholders for pictures that should be added afterwards, and adding troubleshooting points
+
+for prompt 4 also takes the freedom to add placeholders for images and adding troubleshooting
+
+Deciding on required tools by itself like rubber mallets where gentle force has to be applied
+
+Overall:
+adding additional assembly hints as screwing in right direction, no overtightening, or cross pattern tightening
+using a lot of double-check or recheck
+
+
+CONCLUSION:
+
+too much talking costs extra money without added value
+adding tools at ones own direction can be fine or it has to be explicitly prohibited and LLM should stick to the given tools only
+
+
+
+Qwen
+
+Task 1:
+wrongly inserting the double eneded screw into table to and leg an once screwing with a screwdriver, or assuming a through hole in the leg
+prompt 2 - instead of following clear given instruction for output format (step 1, step 2, ...) it adds Parts&Tool requirement, you'll need section at the beginning and tips for success and greetings in the end
+prompt 4 Adding a written diagram (text representation) of tabletop-screw-leg connection
+Task 2:
+changing the order of assembly during all prompts
+prompt 3 - first attaching the arm rests to the back and then attaching the whole assembly to the seat, while holding it in place and screwing from the bottom side can be a bit cumbersome 
+prompt 4 - first attaching the seat mechanism to the bottom part before screwing the seat upwards on can be a bit cumbersome and ergonomically not perfect
+Task 3:
+cleaning before attaching the silicone feet to case
+handling self adhesive part well with removing the protection film first
+prompt 1 - placing the PI correctly in the base and closing the case afterwards but no instruction for disassembly of preassembled case before
+prompt 2 - handling disassembly of preassembled parts
+prompt 3 - working with disassembled case but no instructions of disassembly first 
+prompt 4 - cleaning before stick on, seperating case parts first
+Task 4:
+prompt 1, prompt 2, prompt 3 - positioning each shelf and the skriting boart directly inbetween both side panels which is more difficult, as inserting after the skriting board is already holding the side panels in place will require to pull the side panals apart which might damage the parts or dowels or holes
+prompt 1- inserting the cam screws after side panels are connected to the shelves
+prompt 2 - understood the concept and way of installation of cam screws and locks correctly
+prompt 3 - cam screw inserted from the outside of the side panel
+prompt 4 - first assembling the shleves and the side panels and then adding the cam screws on the innter face of side panels
+Task 5:
+recognises the order of front fender before tyre
+prompt 1 - Despite instruction 'reattach the rear fender above the training wheel using the provided fender strut' there is not previous instruction of removing the rear fender before
+prompt 2 - has instruction for temporarily removing rear fender stray for training wheel instalation
+prompt 2- pay special attention to diefferent size fasteners with additional note
+prompt 3, prompt 4 - lists parts for every step individually
+
+
+Overall:
+long thinking tags increasing length of responses
+keeping other talking in the main response to a minimum adding some sdditional notes or troubleshooting
+using a lot of double-check or recheck
+
+CONCLUSION:
+
+too much thinking costs extra money without added value
+
+
+
+
+
+General:
+Issue withou 3D Information - part list has to be very detailed, such as defining if a whole is in the corner or middle or if it is a threded or through hole etc.
+
+the models also have issues with the right order for fender and tyre installation whereas fender and stay should be isntalled first into the fork before the tyreis placed in the fork because otherwise the tyre is in the way and the fender cannot be placed inside the fork - visually the models cannot see he set up so they cannot derive his logic so this has to be described in he text
+
+
+random notes added as Keep small parts from Children or contact endor for missing parts
+
+required steps such as cleaning before stick on can be derived from rules to ensure it Always is mentioned -> at least Basic rule base required
+
+The result sytax varies every time if no explicit response form is provided (and even then a fixed format is not guranteed) which makes parsing for further processing very difficult just like human written instructions - this is a benefit of using rule based system that returns instructions in a strict format

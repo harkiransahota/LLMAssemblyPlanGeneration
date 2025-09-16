@@ -1,0 +1,431 @@
+Task 1 - Side Table: zero_shot:
+ Create a step-by-step assembly plan for a small side table consisting of the following parts:
+1. One tabletop with four pre-drilled holes on the bottom side of each corner (on the bottom face only, not going all the way through).
+2. Four legs each with one pre-drilled hole on the top.
+3. Four double ended screws.
+
+A:     A: 15 - 5 5 5  
+    B: 14 - 5 4 5
+
+M:['Qwen', 'Gemma']
+
+------------------------------------------------------------
+
+
+
+Task 1 - Side Table: few_shot:
+ Here is an example of an assembly plan for a night-stand with the following parts: centre stack with two pre-drilled holes on each corner,a table top with two pre-drilled holes on each corner, four legs each with two pre-drilled holes in the centre and on the top, 16 socket screws:
+Step 1: Position the centre stack.
+Step 2: Position each leg and attach loosely to the centre stack using two screws per leg.
+Step 3: Position the table top aligning the screw holes.
+Step 4: Attach the table top to the assembly using two screws per corner.
+Step 5: Carefully set the table upright.
+Step 6: Ensure everything is aligned and tighten all screws securely.
+
+Now create a step-by-step assembly plan for a small side table consisting of the following parts:
+1. One tabletop with four pre-drilled holes on the bottom side of each corner (on the bottom face only, not going all the way through).
+2. Four legs each with one pre-drilled hole on the top.
+3. Four double ended screws.
+
+A: A: 14 - 5 5 4  
+B: 12 - 4 4 4
+
+M:['Qwen', 'Gemma']
+
+------------------------------------------------------------
+
+
+
+Task 1 - Side Table: instruction_tuned:
+ You are a planner specialised in creating user-friendly assembly manuals. Your task is to write a clear, step-by-step plan for assembling a small side table consisting of the following parts:
+1. One tabletop with four pre-drilled holes on the bottom side of each corner (on the bottom face only, not going all the way through).
+2. Four legs each with one pre-drilled hole on the top.
+3. Four double ended screws.
+Make the instructions easy to follow for beginners.
+
+A: A: 14 - 5 5 4  
+B: 13 - 5 4 4
+
+M:['Gemma', 'Qwen']
+
+------------------------------------------------------------
+
+
+
+Task 1 - Side Table: evaluation_aware:
+ Create a high-quality, step-by-step assembly plan for a small side table with the following parts:
+1. One tabletop with four pre-drilled holes on the bottom side of each corner (on the bottom face only, not going all the way through).
+2. Four legs each with one pre-drilled hole on the top.
+3. Four double ended screws.
+Your response will be evaluated and scored based on clarity, completeness, and usefulness, so ensure the instructions are well-structured and easy to follow.
+
+A: ```
+A: 14 - 5 5 4  
+B: 15 - 5 5 5
+```
+
+M:['Qwen', 'Gemma']
+
+------------------------------------------------------------
+
+
+
+Task 2 - Office Chair: zero_shot:
+ Create a step-by-step assembly plan for an office chair consisting of the following parts:
+1. A seat with four pre-drilled holes on the bottom center and two on each side of the bottom (left and right).
+2. A backrest with two pre-drilled holes on each side on the back (left and right).
+3. Two armrests, each with two screw holes on the back (for the backrest) and two on the bottom (for the seat).
+4. A leg base with a plug-in hole at the center and five radial arms, each with a threaded hole.
+5. Five caster wheels, each with a pre-attached screw for mounting.
+6. A gas lift cylinder with a plug-in fitting.
+7. A seat bottom mechanism with a center hole for the cylinder and four pre-drilled mounting holes on the corners.
+8. Four short bolts (used to attach the seat mechanism to the seat bottom).
+9. Eight long bolts (used to attach the armrests to the seat and backrest — four of these are used with washers for the seat attachment).
+10. Four washers, used with the four long bolts that secure the bottom of the armrests to the seat.
+
+
+A:     A: 14 - 5 5 4  
+    B: 15 - 5 5 5
+
+M:['Qwen', 'Gemma']
+
+------------------------------------------------------------
+
+
+
+Task 2 - Office Chair: few_shot:
+ Here is an example of an assembly plan for a night-stand with the following parts: centre stack with two pre-drilled holes on each corner,a table top with two pre-drilled holes on each corner, four legs each with two pre-drilled holes in the centre and on the top, 16 socket screws:
+Step 1: Position the centre stack.
+Step 2: Position each leg and attach loosely to the centre stack using two screws per leg.
+Step 3: Position the table top aligning the screw holes.
+Step 4: Attach the table top to the assembly using two screws per corner.
+Step 5: Carefully set the table upright.
+Step 6: Ensure everything is aligned and tighten all screws securely.
+
+Now create a step-by-step assembly plan for an office chair consisting of the following parts:
+1. A seat with four pre-drilled holes on the bottom center and two on each side of the bottom (left and right).
+2. A backrest with two pre-drilled holes on each side on the back (left and right).
+3. Two armrests, each with two screw holes on the back (for the backrest) and two on the bottom (for the seat).
+4. A leg base with a plug-in hole at the center and five radial arms, each with a threaded hole.
+5. Five caster wheels, each with a pre-attached screw for mounting.
+6. A gas lift cylinder with a plug-in fitting.
+7. A seat bottom mechanism with a center hole for the cylinder and four pre-drilled mounting holes on the corners.
+8. Four short bolts (used to attach the seat mechanism to the seat bottom).
+9. Eight long bolts (used to attach the armrests to the seat and backrest — four of these are used with washers for the seat attachment).
+10. Four washers, used with the four long bolts that secure the bottom of the armrests to the seat.
+
+A: A: 14 - 5 5 4  
+B: 15 - 5 5 5
+
+M:['Qwen', 'Gemma']
+
+------------------------------------------------------------
+
+
+
+Task 2 - Office Chair: instruction_tuned:
+ You are a planner specialised in creating user-friendly assembly manuals. Your task is to write a clear, step-by-step plan for assembling an office chair consisting of the following parts:
+1. A seat with four pre-drilled holes on the bottom center and two on each side of the bottom (left and right).
+2. A backrest with two pre-drilled holes on each side on the back (left and right).
+3. Two armrests, each with two screw holes on the back (for the backrest) and two on the bottom (for the seat).
+4. A leg base with a plug-in hole at the center and five radial arms, each with a threaded hole.
+5. Five caster wheels, each with a pre-attached screw for mounting.
+6. A gas lift cylinder with a plug-in fitting.
+7. A seat bottom mechanism with a center hole for the cylinder and four pre-drilled mounting holes on the corners.
+8. Four short bolts (used to attach the seat mechanism to the seat bottom).
+9. Eight long bolts (used to attach the armrests to the seat and backrest — four of these are used with washers for the seat attachment).
+10. Four washers, used with the four long bolts that secure the bottom of the armrests to the seat.
+Make the instructions easy to follow for beginners.
+
+A: A: 14 - 5 5 4  
+B: 15 - 5 5 5
+
+M:['Qwen', 'Gemma']
+
+------------------------------------------------------------
+
+
+
+Task 2 - Office Chair: evaluation_aware:
+ Create a high-quality, step-by-step assembly plan for an office chair with the following parts:
+1. A seat with four pre-drilled holes on the bottom center and two on each side of the bottom (left and right).
+2. A backrest with two pre-drilled holes on each side on the back (left and right).
+3. Two armrests, each with two screw holes on the back (for the backrest) and two on the bottom (for the seat).
+4. A leg base with a plug-in hole at the center and five radial arms, each with a threaded hole.
+5. Five caster wheels, each with a pre-attached screw for mounting.
+6. A gas lift cylinder with a plug-in fitting.
+7. A seat bottom mechanism with a center hole for the cylinder and four pre-drilled mounting holes on the corners.
+8. Four short bolts (used to attach the seat mechanism to the seat bottom).
+9. Eight long bolts (used to attach the armrests to the seat and backrest — four of these are used with washers for the seat attachment).
+10. Four washers, used with the four long bolts that secure the bottom of the armrests to the seat.
+Your response will be evaluated and scored based on clarity, completeness, and usefulness, so ensure the instructions are well-structured and easy to follow.
+
+A:     A: 14 - 5 5 4  
+    B: 15 - 5 5 5
+
+M:['Qwen', 'Gemma']
+
+------------------------------------------------------------
+
+
+
+Task 3 - Raspberry Pi Case: zero_shot:
+ Create a step-by-step assembly plan for a Raspberry Pi case consisting of the following parts:
+1. One self-adhesive heat sink (to be attached to the CPU on the Raspberry Pi board).
+2. Four self-adhesive silicone feet for the case base (with marked positions on the bottom).
+3. Three-part plastic case, consisting of: base (with plug-in connector for the middle panel and cutouts for ports), middle panel with a pre-installed cooling fan and attached power cable (to connect to the Raspberry Pi's “FAN” header), lid which clips onto the middle panel; the three case parts come pre-clipped together, the Raspberry Pi CPU (not included in Assembly kit) should be positioned between base and middle panel.
+
+A:     A: 14 - 5 4 5  
+    B: 15 - 5 5 5
+
+M:['Gemma', 'Qwen']
+
+------------------------------------------------------------
+
+
+
+Task 3 - Raspberry Pi Case: few_shot:
+ Here is an example of an assembly plan for a night-stand with the following parts: centre stack with two pre-drilled holes on each corner,a table top with two pre-drilled holes on each corner, four legs each with two pre-drilled holes in the centre and on the top, 16 socket screws:
+Step 1: Position the centre stack.
+Step 2: Position each leg and attach loosely to the centre stack using two screws per leg.
+Step 3: Position the table top aligning the screw holes.
+Step 4: Attach the table top to the assembly using two screws per corner.
+Step 5: Carefully set the table upright.
+Step 6: Ensure everything is aligned and tighten all screws securely.
+
+Now create a step-by-step assembly plan for a Raspberry Pi case consisting of the following parts:
+1. One self-adhesive heat sink (to be attached to the CPU on the Raspberry Pi board).
+2. Four self-adhesive silicone feet for the case base (with marked positions on the bottom).
+3. Three-part plastic case, consisting of: base (with plug-in connector for the middle panel and cutouts for ports), middle panel with a pre-installed cooling fan and attached power cable (to connect to the Raspberry Pi's “FAN” header), lid which clips onto the middle panel; the three case parts come pre-clipped together, the Raspberry Pi CPU (not included in Assembly kit) should be positioned between base and middle panel.
+
+A: A: 14 - 5 5 4  
+B: 15 - 5 5 5  
+
+(Note: Total score is the sum of clarity, completeness, and correctness. Breakdown shows individual scores.)
+
+M:['Gemma', 'Qwen']
+
+------------------------------------------------------------
+
+
+
+Task 3 - Raspberry Pi Case: instruction_tuned:
+ You are a planner specialised in creating user-friendly assembly manuals. Your task is to write a clear, step-by-step plan for assembling a Raspberry Pi case consisting of the following parts:
+1. One self-adhesive heat sink (to be attached to the CPU on the Raspberry Pi board).
+2. Four self-adhesive silicone feet for the case base (with marked positions on the bottom).
+3. Three-part plastic case, consisting of: base (with plug-in connector for the middle panel and cutouts for ports), middle panel with a pre-installed cooling fan and attached power cable (to connect to the Raspberry Pi's “FAN” header), lid which clips onto the middle panel; the three case parts come pre-clipped together, the Raspberry Pi CPU (not included in Assembly kit) should be positioned between base and middle panel.
+Make the instructions easy to follow for beginners.
+
+A:     A: 14 - 5 5 4 
+    B: 12 - 4 4 4
+
+M:['Qwen', 'Gemma']
+
+------------------------------------------------------------
+
+
+
+Task 3 - Raspberry Pi Case: evaluation_aware:
+ Create a high-quality, step-by-step assembly plan for a Raspberry Pi case with the following parts:
+1. One self-adhesive heat sink (to be attached to the CPU on the Raspberry Pi board).
+2. Four self-adhesive silicone feet for the case base (with marked positions on the bottom).
+3. Three-part plastic case, consisting of: base (with plug-in connector for the middle panel and cutouts for ports), middle panel with a pre-installed cooling fan and attached power cable (to connect to the Raspberry Pi's “FAN” header), lid which clips onto the middle panel; the three case parts come pre-clipped together, the Raspberry Pi CPU (not included in Assembly kit) should be positioned between base and middle panel.
+Your response will be evaluated and scored based on clarity, completeness, and usefulness, so ensure the instructions are well-structured and easy to follow.
+
+A: A: 14 - 5 5 4  
+B: 15 - 5 5 5
+
+M:['Gemma', 'Qwen']
+
+------------------------------------------------------------
+
+
+
+Task 4 - Book Case: zero_shot:
+ Create a step-by-step assembly plan for a book case consisting of the following parts:
+1. Three horizontal shelves each with: two wooden plug holes on each end (for wooden dowels), two screw plug holes on each end (for cam screws) and corresponding cam lock holes on the underside.
+2. One skirting/base board with two wooden plug holes on each end (for wooden dowels).
+3. Two side panels each with: eight plug holes (for wooden dowels from shelves and skirting), six shallow threaded holes only on the inner face (not going all the way through) (for cam screws) and a vertical groove on the inner rear side (to slide in the back panel).
+4. One back panel.
+5. 16 wooden dowels (to connect shelves and skirting board to side panels).
+6. 12 cam screws (to connect shelves to side panels).
+7. 12 cam locks (to lock shelves in place via cam screws).
+8. 18 nails (to secure the back panel to the horizonal shelves).
+9. Optional: wall-mounting brackets (for safety and stability).
+
+A:     A: 14 - 5 5 4  
+    B: 13 - 4 4 5
+
+M:['Gemma', 'Qwen']
+
+------------------------------------------------------------
+
+
+
+Task 4 - Book Case: few_shot:
+ Here is an example of an assembly plan for a night-stand with the following parts: centre stack with two pre-drilled holes on each corner,a table top with two pre-drilled holes on each corner, four legs each with two pre-drilled holes in the centre and on the top, 16 socket screws:
+Step 1: Position the centre stack.
+Step 2: Position each leg and attach loosely to the centre stack using two screws per leg.
+Step 3: Position the table top aligning the screw holes.
+Step 4: Attach the table top to the assembly using two screws per corner.
+Step 5: Carefully set the table upright.
+Step 6: Ensure everything is aligned and tighten all screws securely.
+
+Now create a step-by-step assembly plan for a book case consisting of the following parts:
+1. Three horizontal shelves each with: two wooden plug holes on each end (for wooden dowels), two screw plug holes on each end (for cam screws) and corresponding cam lock holes on the underside.
+2. One skirting/base board with two wooden plug holes on each end (for wooden dowels).
+3. Two side panels each with: eight plug holes (for wooden dowels from shelves and skirting), six shallow threaded holes only on the inner face (not going all the way through) (for cam screws) and a vertical groove on the inner rear side (to slide in the back panel).
+4. One back panel.
+5. 16 wooden dowels (to connect shelves and skirting board to side panels).
+6. 12 cam screws (to connect shelves to side panels).
+7. 12 cam locks (to lock shelves in place via cam screws).
+8. 18 nails (to secure the back panel to the horizonal shelves).
+9. Optional: wall-mounting brackets (for safety and stability).
+
+A:     A: 14 - 5 5 4  
+    B: 13 - 4 5 4
+
+M:['Gemma', 'Qwen']
+
+------------------------------------------------------------
+
+
+
+Task 4 - Book Case: instruction_tuned:
+ You are a planner specialised in creating user-friendly assembly manuals. Your task is to write a clear, step-by-step plan for assembling a book case consisting of the following parts:
+1. Three horizontal shelves each with: two wooden plug holes on each end (for wooden dowels), two screw plug holes on each end (for cam screws) and corresponding cam lock holes on the underside.
+2. One skirting/base board with two wooden plug holes on each end (for wooden dowels).
+3. Two side panels each with: eight plug holes (for wooden dowels from shelves and skirting), six shallow threaded holes only on the inner face (not going all the way through) (for cam screws) and a vertical groove on the inner rear side (to slide in the back panel).
+4. One back panel.
+5. 16 wooden dowels (to connect shelves and skirting board to side panels).
+6. 12 cam screws (to connect shelves to side panels).
+7. 12 cam locks (to lock shelves in place via cam screws).
+8. 18 nails (to secure the back panel to the horizonal shelves).
+9. Optional: wall-mounting brackets (for safety and stability).
+Make the instructions easy to follow for beginners.
+
+A:     A: 14 - 5 5 4  
+    B: 15 - 5 5 5
+
+M:['Gemma', 'Qwen']
+
+------------------------------------------------------------
+
+
+
+Task 4 - Book Case: evaluation_aware:
+ Create a high-quality, step-by-step assembly plan for a book case with the following parts:
+1. Three horizontal shelves each with: two wooden plug holes on each end (for wooden dowels), two screw plug holes on each end (for cam screws) and corresponding cam lock holes on the underside.
+2. One skirting/base board with two wooden plug holes on each end (for wooden dowels).
+3. Two side panels each with: eight plug holes (for wooden dowels from shelves and skirting), six shallow threaded holes only on the inner face (not going all the way through) (for cam screws) and a vertical groove on the inner rear side (to slide in the back panel).
+4. One back panel.
+5. 16 wooden dowels (to connect shelves and skirting board to side panels).
+6. 12 cam screws (to connect shelves to side panels).
+7. 12 cam locks (to lock shelves in place via cam screws).
+8. 18 nails (to secure the back panel to the horizonal shelves).
+9. Optional: wall-mounting brackets (for safety and stability).
+Your response will be evaluated and scored based on clarity, completeness, and usefulness, so ensure the instructions are well-structured and easy to follow.
+
+A:     A: 14 - 5 5 4  
+    B: 15 - 5 5 5
+
+M:['Qwen', 'Gemma']
+
+------------------------------------------------------------
+
+
+
+Task 5 - Kids Bicycle: zero_shot:
+ Create a step-by-step assembly plan for a kids bicycle consisting of the following parts:
+1. Main frame with front fork, rear wheel, chain, and chain guard pre-installed.
+2. Front fork, including one bolt (10 mm), nut, and washer for front fender crown installation; fork dropout for front wheel axle; two bolts (4 mm hex) on both sides of the dropout for attaching fender stays.
+3. Saddle with seat post, includes one pre-installed seat clamp with bolt (5 mm hex); seat post marked with a “minimum insertion line” that must not remain visible after installation.
+4. Front wheel with axle, two axle nuts (15 mm hex) with two washers, pre-installed on the axle (washer to be placed outside of nut).
+5. Handlebar with stem, marked with “minimum insertion line” (must be fully inserted during installation), top stem bolt (6 mm hex) pre-installed.
+6. Front fender with fender stays (braces); one bolt and two flat washers for fork crown installation; two bolts (4 mm hex) and one nut for attaching stays to fork eyelets.
+7. Two pedals, each marked with “L” (left) or “R” (right) on the spindle; threaded axle requires clockwise installation for the right pedal and counterclockwise for the left.
+8. Optional: training wheels, each includes one square mounting plate, one bolt (15 mm hex) with washer, and one fender strut to reattach the rear fender above the training wheel after installation.
+Important assembly dependency: The front fender and its stays must be installed into the fork before the front wheel is placed, as the wheel blocks the necessary clearance for positioning the fender inside the fork.
+
+A: A: 14 - 5 5 4  
+B: 15 - 5 5 5
+
+M:['Gemma', 'Qwen']
+
+------------------------------------------------------------
+
+
+
+Task 5 - Kids Bicycle: few_shot:
+ Here is an example of an assembly plan for a night-stand with the following parts: centre stack with two pre-drilled holes on each corner,a table top with two pre-drilled holes on each corner, four legs each with two pre-drilled holes in the centre and on the top, 16 socket screws:
+Step 1: Position the centre stack.
+Step 2: Position each leg and attach loosely to the centre stack using two screws per leg.
+Step 3: Position the table top aligning the screw holes.
+Step 4: Attach the table top to the assembly using two screws per corner.
+Step 5: Carefully set the table upright.
+Step 6: Ensure everything is aligned and tighten all screws securely.
+
+Now create a step-by-step assembly plan for a kids bicycle consisting of the following parts:
+1. Main frame with front fork, rear wheel, chain, and chain guard pre-installed.
+2. Front fork, including one bolt (10 mm), nut, and washer for front fender crown installation; fork dropout for front wheel axle; two bolts (4 mm hex) on both sides of the dropout for attaching fender stays.
+3. Saddle with seat post, includes one pre-installed seat clamp with bolt (5 mm hex); seat post marked with a “minimum insertion line” that must not remain visible after installation.
+4. Front wheel with axle, two axle nuts (15 mm hex) with two washers, pre-installed on the axle (washer to be placed outside of nut).
+5. Handlebar with stem, marked with “minimum insertion line” (must be fully inserted during installation), top stem bolt (6 mm hex) pre-installed.
+6. Front fender with fender stays (braces); one bolt and two flat washers for fork crown installation; two bolts (4 mm hex) and one nut for attaching stays to fork eyelets.
+7. Two pedals, each marked with “L” (left) or “R” (right) on the spindle; threaded axle requires clockwise installation for the right pedal and counterclockwise for the left.
+8. Optional: training wheels, each includes one square mounting plate, one bolt (15 mm hex) with washer, and one fender strut to reattach the rear fender above the training wheel after installation.
+Important assembly dependency: The front fender and its stays must be installed into the fork before the front wheel is placed, as the wheel blocks the necessary clearance for positioning the fender inside the fork.
+
+A: A: 13 - 4 4 5  
+B: 15 - 5 5 5
+
+M:['Gemma', 'Qwen']
+
+------------------------------------------------------------
+
+
+
+Task 5 - Kids Bicycle: instruction_tuned:
+ You are a planner specialised in creating user-friendly assembly manuals. Your task is to write a clear, step-by-step plan for assembling a kids bicycle consisting of the following parts:
+1. Main frame with front fork, rear wheel, chain, and chain guard pre-installed.
+2. Front fork, including one bolt (10 mm), nut, and washer for front fender crown installation; fork dropout for front wheel axle; two bolts (4 mm hex) on both sides of the dropout for attaching fender stays.
+3. Saddle with seat post, includes one pre-installed seat clamp with bolt (5 mm hex); seat post marked with a “minimum insertion line” that must not remain visible after installation.
+4. Front wheel with axle, two axle nuts (15 mm hex) with two washers, pre-installed on the axle (washer to be placed outside of nut).
+5. Handlebar with stem, marked with “minimum insertion line” (must be fully inserted during installation), top stem bolt (6 mm hex) pre-installed.
+6. Front fender with fender stays (braces); one bolt and two flat washers for fork crown installation; two bolts (4 mm hex) and one nut for attaching stays to fork eyelets.
+7. Two pedals, each marked with “L” (left) or “R” (right) on the spindle; threaded axle requires clockwise installation for the right pedal and counterclockwise for the left.
+8. Optional: training wheels, each includes one square mounting plate, one bolt (15 mm hex) with washer, and one fender strut to reattach the rear fender above the training wheel after installation.
+Important assembly dependency: The front fender and its stays must be installed into the fork before the front wheel is placed, as the wheel blocks the necessary clearance for positioning the fender inside the fork.
+Make the instructions easy to follow for beginners.
+
+A:     A: 14 - 5 5 4 
+    B: 15 - 5 5 5
+
+M:['Qwen', 'Gemma']
+
+------------------------------------------------------------
+
+
+
+Task 5 - Kids Bicycle: evaluation_aware:
+ Create a high-quality, step-by-step assembly plan for a kids bicycle with the following parts:
+1. Main frame with front fork, rear wheel, chain, and chain guard pre-installed.
+2. Front fork, including one bolt (10 mm), nut, and washer for front fender crown installation; fork dropout for front wheel axle; two bolts (4 mm hex) on both sides of the dropout for attaching fender stays.
+3. Saddle with seat post, includes one pre-installed seat clamp with bolt (5 mm hex); seat post marked with a “minimum insertion line” that must not remain visible after installation.
+4. Front wheel with axle, two axle nuts (15 mm hex) with two washers, pre-installed on the axle (washer to be placed outside of nut).
+5. Handlebar with stem, marked with “minimum insertion line” (must be fully inserted during installation), top stem bolt (6 mm hex) pre-installed.
+6. Front fender with fender stays (braces); one bolt and two flat washers for fork crown installation; two bolts (4 mm hex) and one nut for attaching stays to fork eyelets.
+7. Two pedals, each marked with “L” (left) or “R” (right) on the spindle; threaded axle requires clockwise installation for the right pedal and counterclockwise for the left.
+8. Optional: training wheels, each includes one square mounting plate, one bolt (15 mm hex) with washer, and one fender strut to reattach the rear fender above the training wheel after installation.
+Important assembly dependency: The front fender and its stays must be installed into the fork before the front wheel is placed, as the wheel blocks the necessary clearance for positioning the fender inside the fork.
+Your response will be evaluated and scored based on clarity, completeness, and usefulness, so ensure the instructions are well-structured and easy to follow.
+
+A:     A: 15 - 5 5 5
+    B: 14 - 4 5 5
+
+M:['Qwen', 'Gemma']
+
+------------------------------------------------------------
+
+
+
