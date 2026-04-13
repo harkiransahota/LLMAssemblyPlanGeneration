@@ -1,78 +1,114 @@
 # LLMAssemblyPlanGeneration
-CODE REPOSITORY
 
-This repository contains the code accompanying the paper:
-"Out-of-the-box Assembly Plan Generation: A Peer Evaluation of Open-Source LLMs"
+This repository contains the code and data accompanying the paper:
 
-## About
+**"Out-of-the-Box Assembly Instruction Generation: A Peer Evaluation of Open-Source LLMs"**
 
-The paper investigates how well pre-trained, general-purpose Large Language Models (LLMs) can be applied directly—without further training—to generate structured assembly instructions from minimal input such as part lists and basic constraints.
+---
 
-This Jupyter Notebook contains the code for the tests and evaluations conucted in the study, including:
+## 📖 Overview
 
-- Domain relevance tests by asking 10 general manufacturing questions and scoring responses.
+This study investigates the applicability of pre-trained, general-purpose Large Language Models (LLMs) for generating assembly instructions without fine-tuning. The evaluation focuses on:
 
-- Quality evaluation of assembly instruction generation from top-performing LLMs using different assembly tasks and prompting strategies.
+- Domain knowledge relevant to manufacturing and assembly  
+- Instruction generation quality across different prompting strategies  
+- The use of LLMs as evaluators (peer evaluation), including analysis of evaluator behaviour  
 
+All experiments are implemented in a Jupyter Notebook and can be reproduced using the provided data and scripts.
 
-## Repository Contents
+---
 
-notebook.ipynb: Jupyter Notebook with the code for tests and evaluations.
+## 📂 Repository Structure
 
-requirements.txt: Python dependencies to create the virtual environment.
+- `LLMEvaluation.ipynb`  
+  Main Jupyter Notebook containing all experiments, evaluations, and analysis.
 
-domain_relevance_responses/: LLM responses to the domain relevance test questions.
+- `requirements.txt`  
+  Python dependencies required to run the notebook.
 
-domain_relevance_evaluations/: Evaluations and scoring of the domain relevance test responses.
+- `DomainRelevanceTestResponses/`  
+  Raw LLM responses to the domain relevance test questions.
 
-prompt_test_responses/: LLM-generated assembly instructions for the prompt (assembly generation) test.
+- `DomainRelevanceTestEvaluation/`  
+  Evaluator scores for the domain relevance test.
 
-prompt_test_evaluations/: Evaluations of the prompt test assembly instructions.
+- `PromptingTestResponses/`  
+  Generated assembly instructions for all task–prompt combinations.
 
-manufacturer_manuals/: Original assembly manuals for the 5 assembly tasks used in the prompt test, provided for reference and manual verification of generated instructions.
+- `PromptingTestEvaluation/`  
+  Peer evaluation scores (clarity, completeness, correctness) for all generated instructions.
 
-## Instructions to set up the environment and run the notebook.
+- `AssemblyTaskInstructions/`  
+  Original assembly manuals used as reference material for the five evaluation tasks.
 
-Getting Started
+---
 
-Follow these steps to run the code locally:
+## ⚙️ Setup Instructions
 
 ### 1. Clone the repository
-git clone https://github.com/harkiransahota/LLMAssemblyPlanGeneration.git
 
-cd LLMAssemblyPlanGeneration
+git clone https://github.com/harkiransahota/LLMAssemblyPlanGeneration.git  
+cd LLMAssemblyPlanGeneration  
+
+---
 
 ### 2. Create and activate a virtual environment
 
-  #### macOS/Linux:
+#### macOS/Linux
 
-python3 -m venv venv
+python3 -m venv venv  
+source venv/bin/activate  
 
-source venv/bin/activate
+#### Windows
 
+python -m venv venv  
+.\venv\Scripts\activate  
 
-  #### Windows:
-
-python -m venv venv
-
-.\venv\Scripts\activate
+---
 
 ### 3. Install dependencies
-pip install -r requirements.txt
 
-### 4. Set up the Nebius API token
+pip install -r requirements.txt  
 
-Create a .env file in the project root folder with the following content:
+---
+
+## 🔑 API Configuration
+
+This project uses the Nebius API to access LLMs.
+
+Create a `.env` file in the project root directory:
 
 NEBIUS_TOKEN=your_access_token_here
 
+Replace `your_access_token_here` with your actual API token.
 
-Replace your_access_token_here with your actual Nebius token.
+The notebook automatically loads this variable via `python-dotenv`.
 
-The notebook will automatically load this environment variable using a package like python-dotenv.
+---
 
-### 5. Run the Jupyter Notebook
-jupyter notebook
+## ▶️ Running the Experiments
 
+Start Jupyter Notebook:
 
-Open the notebook file and run the cells to reproduce the tests and evaluations.
+jupyter notebook  
+
+Open `LLMEvaluation.ipynb` and execute the cells sequentially to reproduce:
+
+- Domain relevance evaluation  
+- Prompting test (assembly instruction generation)  
+- Peer evaluation and scoring  
+- Aggregation and analysis of results  
+
+---
+
+## 📊 Notes on Reproducibility
+
+- All raw model outputs and evaluation scores are included in this repository.  
+- Scores reported in the paper are derived from the provided evaluation files.  
+- Preprocessing steps (e.g., removal of formatting artifacts such as `think` tags) are implemented within the notebook.  
+
+---
+
+## 📄 License
+
+Please refer to the individual model licenses where applicable. This repository contains only generated outputs and evaluation data.
